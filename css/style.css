@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    color: #fbfbf3;
+    background-color: #393a4e;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 750px;
+}
+
+#main_site {
+    display: block;
+    min-width: none;     
+}
+
+#need_help {
+    text-align: right;
+}
+
+#discord_server {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fbfbf3;
+}
+
+#main_name {
+    font-size: 5rem;
+    text-align: center;
+}
+
+#description_box {
+    width: 100%;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description {
+    font-size: 1rem;
+}
+
+#weak {
+    padding: 0.2rem 0.7rem;
+    margin: 0;
+    font-size: 2rem;
+    background-color: #393a4e;
+    border: 2px solid #fbfbf3;
+    color: #fbfbf3;
+    border-radius: 3rem;
+    overflow: hidden;
+    box-shadow: 2px 2px #1f1f29;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+#good {
+    padding: 0.2rem 0.7rem;
+    margin: 0;
+    font-size: 2rem;
+    background-color: orange;
+    border: 2px solid #fbfbf3;
+    color: #fbfbf3;
+    border-radius: 3rem;
+    overflow: hidden;
+    box-shadow: 2px 2px #1f1f29;
+    cursor: pointer;
+    transition: 0.1s linear;
+    margin-left: 0.5rem;
+}
+
+#strong {
+    padding: 0.2rem 0.7rem;
+    margin: 0;
+    font-size: 2rem;
+    background-color: #393a4e;
+    border: 2px solid #fbfbf3;
+    color: #fbfbf3;
+    border-radius: 3rem;
+    overflow: hidden;
+    box-shadow: 2px 2px #1f1f29;
+    cursor: pointer;
+    transition: 0.1s linear;
+    margin-left: 0.5rem;
+}
+
+#button_generate {
+    padding: 1.5rem 4rem;
+    margin-top: 1.5rem;
+    font-size: 2.8rem;
+    background-color: #393a4e;
+    border: 2px solid #fbfbf3;
+    color: #fbfbf3;
+    border-radius: 3rem;
+    overflow: hidden;
+    box-shadow: 2px 2px #1f1f29;
+    cursor: pointer;
+    transition: 0.3s linear;
+    margin-inline-end: 0;
+
+}
+
+#weak:hover {
+    box-shadow: 0 5px 8px 0 #1f1f29,0 3px 10px 0 #1f1f29 !important;
+    position: relative;
+    top: -1px;
+}
+
+#good:hover {
+    box-shadow: 0 5px 8px 0 #1f1f29,0 3px 10px 0 #1f1f29 !important;
+    position: relative;
+    top: -1px;
+}
+
+#strong:hover {
+    box-shadow: 0 5px 8px 0 #1f1f29,0 3px 10px 0 #1f1f29 !important;
+    position: relative;
+    top: -1px;
+    transition: 0.5s linear;
+}
+
+#button_generate:hover {
+    box-shadow: 0 5px 8px 0 #1f1f29,0 3px 10px 0 #1f1f29 !important;
+    position: relative;
+    top: -1px;
+    background-color: #494d9c;
+}
+
+#psw_div {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+#password {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    font-size: 2rem;
+    background-color: #393a4e;
+    border: 2px solid #fbfbf3;
+    color: #fbfbf3;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s linear;
+    max-height: 2.2rem;
+}
+
+#password:hover {
+    top: -1px;
+    box-shadow: 0 5px 8px 0 #1f1f29,0 3px 10px 0 #1f1f29 !important;
+}
+
+footer {
+    position: fixed;
+    display: block;
+    width: 100%;
+    left: 0;
+    padding: 0.5rem;
+    bottom: 0;
+    text-align: center;
+    color: #fbfbf3;
+    background-color: #42425c;
+}
+
+#lowegarmark {
+    text-decoration: none;
+    color: #fbfbf3;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#discord_logo {
+    width: 0.8rem;
+    height: 0.8rem;
+}

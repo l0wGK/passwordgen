@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PasswordGen</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="icon" type="image/x-icon" href="./images/password.ico" />
+        <script src="./js/script.js"></script>
+    </head>
+
+    <body onload="password()">
+        <div id="main_site">
+            <p id="need_help">Need help? Join our <a id="discord_server" href="https://discord.gg/28FqjeEscf" target="_blank">Discord</a> <img id="discord_logo" src="./images/discord logo.png"></p>
+            <h1 id="main_name">PasswordGen</h1>
+            <div id="description_box">
+                <p id="description">PasswordGen generates password which are impossible to bruteforce. All passwords are generated on your computer and are not sent or stored anywhere.</p>
+            </div>
+
+            <center><div id="psw_div" onclick="copy(this)">
+                <stan id="password"></stan>
+            </div>
+            </center>
+            
+            <center><button id="button_generate" onclick="password()">Generate</button></center><br>
+            <center><button id="weak" onclick="weak()">weak</button><button id="good" onclick="good()">good</button><button id="strong" onclick="strong()">strong</button></center>
+        </div>
+
+        <footer>A <a id="lowegarmark" href="https://github.com/l0wgk" target="_blank">Lowe Garmark</a> Production</footer>
+    </body>
+</html>
